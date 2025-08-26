@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"
+    ></script>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <div>
+      <div style="text-align: center">
+        <label for="commits">Commits:</label>
+        <select name="commits" id="commits" onchange="updateChart()">
+          <option value="25">25</option>
+          <option value="50">50</option>
+          <option value="100">100</option>
+          <option value="200">200</option>
+          <option value="0" selected>ALL</option>
+        </select>
+      </div>
+      <canvas id="myChart"></canvas>
+    </div>
+    <script>
+      let datasets;
+      let labels;
+      let myDataChart;
+      const getRgbColor = (r, g, b) => {
+        return `rgb(${r}, ${g}, ${b})`;
+      };
+      const getRgbaColor = (r, g, b, a = 0.2) => {
+        return `rgba(${r}, ${g}, ${b}, ${a})`;
+      };
+      const colors = {
+        pageLoadTime: {
+          background: getRgbaColor(41, 128, 185),
+          border: getRgbColor(41, 128, 185),
+        },
+        domContentLoaded: {
+          background: getRgbaColor(46, 204, 113),
+          border: getRgbColor(46, 204, 113),
+        },
+        firstContentfulPaint: {
+          background: getRgbaColor(230, 126, 34),
+          border: getRgbColor(230, 126, 34),
+        },
+      };
+
+      async function renderChart(labels, datasets) {
+        const data = {
+          labels,
+          datasets,
+        };
+
+        const config = {
+          type: "bar",
+          data: data,
+          options: {
+            onClick: (_, [raw]) => {
+              const commit = raw?.element?.$context?.raw?.x;
+              if (commit) {
+                window.open(
+                  `https://github.com/MetaMask/metamask-extension/commit/${commit}`,
+                  "_blank"
+                );
+              }
+            },
+            scales: {
+              x: {
+                stacked: true,
+              },
+              y: {
+                stacked: true,
+              },
+            },
+            plugins: {
+              title: {
+                display: true,
+                text: "Page load performance metrics over time (milliseconds)",
+              },
+              tooltip: {
+                callbacks: {
+                  label: function (tooltipItems) {
+                    return `${tooltipItems.dataset.label}: ${
+                      tooltipItems.formattedValue
+                    }ms       Time: ${new Date(
+                      tooltipItems.raw.timestamp
+                    ).toLocaleString()}`;
+                  },
+                },
+              },
+            },
+          },
+        };
+
+        myDataChart = new Chart(document.getElementById("myChart"), config);
+      }
+
+      function loadJSON(url, implementationCode) {
+        fetch(url)
+          .then(response => response.json())
+          .then(data => {
+            window.data = data;
+            implementationCode();
+          });
+      }
+
+      function readPerformanceData() {
+        const size = parseInt(document.getElementById("commits").value);
+
+        const results = Object.entries(data || {})
+          .sort((a, b) => new Date(a[1].timestamp) - new Date(b[1].timestamp))
+          .reduce(
+            (map, [commit, d]) => {
+              // Find the test-dapp page data
+              const testDappData = d.summary.find(s => s.page === "https://metamask.github.io/test-dapp/");
+              if (!testDappData) return map;
+
+              return {
+                labels: [...map.labels, commit],
+                datasets: {
+                  pageLoadTime: {
+                    label: "Page Load Time",
+                    data: [
+                      ...map.datasets.pageLoadTime.data,
+                      {
+                        timestamp: d.timestamp,
+                        x: commit,
+                        y: testDappData.mean.pageLoadTime,
+                      },
+                    ],
+                    backgroundColor: colors.pageLoadTime.background,
+                    borderColor: colors.pageLoadTime.border,
+                    borderWidth: 1,
+                  },
+                  domContentLoaded: {
+                    label: "DOM Content Loaded",
+                    data: [
+                      ...map.datasets.domContentLoaded.data,
+                      {
+                        timestamp: d.timestamp,
+                        x: commit,
+                        y: testDappData.mean.domContentLoaded,
+                      },
+                    ],
+                    backgroundColor: colors.domContentLoaded.background,
+                    borderColor: colors.domContentLoaded.border,
+                    borderWidth: 1,
+                  },
+                  firstContentfulPaint: {
+                    label: "First Contentful Paint",
+                    data: [
+                      ...map.datasets.firstContentfulPaint.data,
+                      {
+                        timestamp: d.timestamp,
+                        x: commit,
+                        y: testDappData.mean.firstContentfulPaint,
+                      },
+                    ],
+                    backgroundColor: colors.firstContentfulPaint.background,
+                    borderColor: colors.firstContentfulPaint.border,
+                    borderWidth: 1,
+                  },
+                },
+              };
+            },
+            {
+              labels: [],
+              datasets: {
+                pageLoadTime: {
+                  label: "Page Load Time (ms)",
+                  data: [],
+                  backgroundColor: colors.pageLoadTime.background,
+                  borderColor: colors.pageLoadTime.border,
+                  borderWidth: 1,
+                },
+                domContentLoaded: {
+                  label: "DOM Content Loaded (ms)",
+                  data: [],
+                  backgroundColor: colors.domContentLoaded.background,
+                  borderColor: colors.domContentLoaded.border,
+                  borderWidth: 1,
+                },
+                firstContentfulPaint: {
+                  label: "First Contentful Paint (ms)",
+                  data: [],
+                  backgroundColor: colors.firstContentfulPaint.background,
+                  borderColor: colors.firstContentfulPaint.border,
+                  borderWidth: 1,
+                },
+              },
+            }
+          );
+        labels = results.labels;
+        datasets = Object.values(results.datasets);
+        renderChart(labels, datasets);
+      }
+
+      function updateChart() {
+        const size = parseInt(document.getElementById("commits").value);
+        if (size > 0) {
+          myDataChart.data.labels = labels.slice(labels.length - size);
+          myDataChart.data.datasets = datasets.map(d => ({
+            ...d,
+            data: d.data.slice(d.data.length - size),
+          }));
+        } else {
+          myDataChart.data.labels = labels;
+          myDataChart.data.datasets = datasets;
+        }
+        myDataChart.update();
+      }
+      const basePath = document.location.pathname
+        .split("/")
+        .slice(0, -1)
+        .join("/");
+
+      // random timestamp query param to prevent file from being cached
+      loadJSON(
+        `${basePath}/stats/page_load_data.json?timestamp=${Date.now()}`,
+        readPerformanceData
+      );
+    </script>
+  </body>
+</html>

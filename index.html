@@ -112,7 +112,6 @@
           .sort((a, b) => new Date(a[1].timestamp) - new Date(b[1].timestamp))
           .reduce(
             (map, [commit, d]) => {
-              // Find the test-dapp page data
               const testDappData = d.summary.find(s => s.page === "https://metamask.github.io/test-dapp/");
               if (!testDappData) return map;
 
@@ -215,7 +214,6 @@
         .slice(0, -1)
         .join("/");
 
-      // random timestamp query param to prevent file from being cached
       loadJSON(
         `${basePath}/stats/page_load_data.json?timestamp=${Date.now()}`,
         readPerformanceData

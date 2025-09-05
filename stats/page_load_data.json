@@ -4470,5 +4470,57 @@
         }
       }
     ]
+  },
+  "cf060bcb1c466c4c9ae3aa48c6fe403d8d7e4c69": {
+    "timestamp": 1757066804527,
+    "commit": "cf060bc\n",
+    "summary": [
+      {
+        "page": "https://metamask.github.io/test-dapp/",
+        "samples": 100,
+        "mean": {
+          "pageLoadTime": 1319.6459999999986,
+          "domContentLoaded": 994.1650000000035,
+          "firstPaint": 94.48,
+          "firstContentfulPaint": 94.48,
+          "largestContentfulPaint": 0
+        },
+        "p95": {
+          "pageLoadTime": 1543.7999999999302,
+          "domContentLoaded": 1207.4000000000233,
+          "firstPaint": 260,
+          "firstContentfulPaint": 260,
+          "largestContentfulPaint": 0
+        },
+        "p99": {
+          "pageLoadTime": 1898.1999999999534,
+          "domContentLoaded": 1569.899999999965,
+          "firstPaint": 304,
+          "firstContentfulPaint": 304,
+          "largestContentfulPaint": 0
+        },
+        "min": {
+          "pageLoadTime": 1258.100000000035,
+          "domContentLoaded": 943.1000000000349,
+          "firstPaint": 72,
+          "firstContentfulPaint": 72,
+          "largestContentfulPaint": 0
+        },
+        "max": {
+          "pageLoadTime": 1898.1999999999534,
+          "domContentLoaded": 1569.899999999965,
+          "firstPaint": 304,
+          "firstContentfulPaint": 304,
+          "largestContentfulPaint": 0
+        },
+        "standardDeviation": {
+          "pageLoadTime": 108.50686468605856,
+          "domContentLoaded": 106.60828520804395,
+          "firstPaint": 43.82795454957945,
+          "firstContentfulPaint": 43.82795454957945,
+          "largestContentfulPaint": 0
+        }
+      }
+    ]
   }
 }

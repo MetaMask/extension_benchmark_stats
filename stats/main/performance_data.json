@@ -53168,5 +53168,1070 @@
         }
       }
     }
+  },
+  "123f62f3579f7d5d11d953027eaf4e855f412469": {
+    "timestamp": 1773258530000,
+    "presets": {
+      "interactionUserActions": {
+        "loadNewAccount": {
+          "testTitle": "benchmark-user-actions-load-new-account",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "mean": {
+            "load_new_account": 276.25,
+            "total": 276.25
+          },
+          "min": {
+            "load_new_account": 266,
+            "total": 266
+          },
+          "max": {
+            "load_new_account": 290,
+            "total": 290
+          },
+          "stdDev": {
+            "load_new_account": 9.229707470987366,
+            "total": 9.229707470987366
+          },
+          "p75": {
+            "load_new_account": 279,
+            "total": 279
+          },
+          "p95": {
+            "load_new_account": 290,
+            "total": 290
+          }
+        },
+        "confirmTx": {
+          "testTitle": "benchmark-user-actions-confirm-tx",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "mean": {
+            "confirm_tx": 6028,
+            "total": 6028
+          },
+          "min": {
+            "confirm_tx": 6024,
+            "total": 6024
+          },
+          "max": {
+            "confirm_tx": 6034,
+            "total": 6034
+          },
+          "stdDev": {
+            "confirm_tx": 3.7416573867739413,
+            "total": 3.7416573867739413
+          },
+          "p75": {
+            "confirm_tx": 6028,
+            "total": 6028
+          },
+          "p95": {
+            "confirm_tx": 6034,
+            "total": 6034
+          }
+        },
+        "bridgeUserActions": {
+          "testTitle": "benchmark-user-actions-bridge-user-actions",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "mean": {
+            "bridge_load_page": 252.6,
+            "bridge_load_asset_picker": 215.8,
+            "bridge_search_token": 732.6,
+            "total": 1201
+          },
+          "min": {
+            "bridge_load_page": 224,
+            "bridge_load_asset_picker": 127,
+            "bridge_search_token": 704,
+            "total": 1105
+          },
+          "max": {
+            "bridge_load_page": 274,
+            "bridge_load_asset_picker": 292,
+            "bridge_search_token": 759,
+            "total": 1267
+          },
+          "stdDev": {
+            "bridge_load_page": 18.842505141302205,
+            "bridge_load_asset_picker": 69.17918762171178,
+            "bridge_search_token": 23.431602591372194,
+            "total": 74.92663077971676
+          },
+          "p75": {
+            "bridge_load_page": 271,
+            "bridge_load_asset_picker": 268,
+            "bridge_search_token": 751,
+            "total": 1266
+          },
+          "p95": {
+            "bridge_load_page": 274,
+            "bridge_load_asset_picker": 292,
+            "bridge_search_token": 759,
+            "total": 1267
+          }
+        }
+      },
+      "userJourneyAccountManagement": {
+        "importSrpHome": {
+          "testTitle": "benchmark-import-srp-home-power-user",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "loginToHomeScreen": 1940.6537558000032,
+            "openAccountMenuAfterLogin": 27.48648033333302,
+            "homeAfterImportWithNewWallet": 29548.87277200001,
+            "total": 31520.91135980002
+          },
+          "min": {
+            "loginToHomeScreen": 1668.2294260000017,
+            "openAccountMenuAfterLogin": 27.22495099999651,
+            "homeAfterImportWithNewWallet": 12457.919331000012,
+            "total": 14405.619201000052
+          },
+          "max": {
+            "loginToHomeScreen": 2212.3301090000023,
+            "openAccountMenuAfterLogin": 27.62807299999986,
+            "homeAfterImportWithNewWallet": 39833.294767000014,
+            "total": 41963.81433500002
+          },
+          "stdDev": {
+            "loginToHomeScreen": 197.54293538609443,
+            "openAccountMenuAfterLogin": 0.18514037868700145,
+            "homeAfterImportWithNewWallet": 10761.998556498082,
+            "total": 10702.493750756099
+          },
+          "p75": {
+            "loginToHomeScreen": 2102.8914950000035,
+            "openAccountMenuAfterLogin": 27.62807299999986,
+            "homeAfterImportWithNewWallet": 38724.850462,
+            "total": 40441.932565
+          },
+          "p95": {
+            "loginToHomeScreen": 2212.3301090000023,
+            "openAccountMenuAfterLogin": 27.62807299999986,
+            "homeAfterImportWithNewWallet": 39833.294767000014,
+            "total": 41963.81433500002
+          }
+        }
+      },
+      "userJourneyAssets": {
+        "assetDetails": {
+          "testTitle": "benchmark-asset-details-power-user",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "assetClickToPriceChart": 66.29158499999612,
+            "total": 66.29158499999612
+          },
+          "min": {
+            "assetClickToPriceChart": 45.208296999990125,
+            "total": 45.208296999990125
+          },
+          "max": {
+            "assetClickToPriceChart": 83.04272899999341,
+            "total": 83.04272899999341
+          },
+          "stdDev": {
+            "assetClickToPriceChart": 13.670943285365846,
+            "total": 13.670943285365846
+          },
+          "p75": {
+            "assetClickToPriceChart": 74.63027999999758,
+            "total": 74.63027999999758
+          },
+          "p95": {
+            "assetClickToPriceChart": 83.04272899999341,
+            "total": 83.04272899999341
+          }
+        },
+        "solanaAssetDetails": {
+          "testTitle": "benchmark-solana-asset-details-power-user",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "assetClickToPriceChart": 45.148630250005226,
+            "total": 45.148630250005226
+          },
+          "min": {
+            "assetClickToPriceChart": 39.69619399998919,
+            "total": 39.69619399998919
+          },
+          "max": {
+            "assetClickToPriceChart": 52.311676000012085,
+            "total": 52.311676000012085
+          },
+          "stdDev": {
+            "assetClickToPriceChart": 4.701895395331161,
+            "total": 4.701895395331161
+          },
+          "p75": {
+            "assetClickToPriceChart": 46.01522900001146,
+            "total": 46.01522900001146
+          },
+          "p95": {
+            "assetClickToPriceChart": 52.311676000012085,
+            "total": 52.311676000012085
+          }
+        }
+      },
+      "userJourneyOnboardingImport": {
+        "onboardingImportWallet": {
+          "testTitle": "benchmark-onboarding-import-wallet",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "importWalletToSocialScreen": 218.9073923999982,
+            "srpButtonToSrpForm": 93.2964506000022,
+            "confirmSrpToPwForm": 21.23222899999819,
+            "pwFormToMetricsScreen": 15.051697249999052,
+            "metricsToWalletReadyScreen": 17.165319399996225,
+            "doneButtonToHomeScreen": 5928.1524839999975,
+            "openAccountMenuToAccountListLoaded": 2052.0011059999983,
+            "total": 7581.4700815999895
+          },
+          "min": {
+            "importWalletToSocialScreen": 216.02602800000022,
+            "srpButtonToSrpForm": 92.84312200000022,
+            "confirmSrpToPwForm": 20.848012999995262,
+            "pwFormToMetricsScreen": 14.880267000000458,
+            "metricsToWalletReadyScreen": 15.498439999995753,
+            "doneButtonToHomeScreen": 5393.519898999992,
+            "openAccountMenuToAccountListLoaded": 2037.5845189999964,
+            "total": 6210.585457999994
+          },
+          "max": {
+            "importWalletToSocialScreen": 221.2815430000046,
+            "srpButtonToSrpForm": 93.66608100000303,
+            "confirmSrpToPwForm": 21.473339999996824,
+            "pwFormToMetricsScreen": 15.23724800000491,
+            "metricsToWalletReadyScreen": 19.411166000001685,
+            "doneButtonToHomeScreen": 6372.698400999998,
+            "openAccountMenuToAccountListLoaded": 2060.890091000001,
+            "total": 8697.400880999994
+          },
+          "stdDev": {
+            "importWalletToSocialScreen": 1.8040021224190002,
+            "srpButtonToSrpForm": 0.3716257524840493,
+            "confirmSrpToPwForm": 0.22884921162910102,
+            "pwFormToMetricsScreen": 0.1479223978781508,
+            "metricsToWalletReadyScreen": 1.6987857299977083,
+            "doneButtonToHomeScreen": 408.6916783196567,
+            "openAccountMenuToAccountListLoaded": 10.286016704395353,
+            "total": 931.9695917149216
+          },
+          "p75": {
+            "importWalletToSocialScreen": 220.28820899999846,
+            "srpButtonToSrpForm": 93.60889300001145,
+            "confirmSrpToPwForm": 21.388514999998733,
+            "pwFormToMetricsScreen": 15.15328099999897,
+            "metricsToWalletReadyScreen": 19.030688999999256,
+            "doneButtonToHomeScreen": 6273.699290999997,
+            "openAccountMenuToAccountListLoaded": 2060.890091000001,
+            "total": 8149.541353999972
+          },
+          "p95": {
+            "importWalletToSocialScreen": 221.2815430000046,
+            "srpButtonToSrpForm": 93.66608100000303,
+            "confirmSrpToPwForm": 21.473339999996824,
+            "pwFormToMetricsScreen": 15.23724800000491,
+            "metricsToWalletReadyScreen": 19.411166000001685,
+            "doneButtonToHomeScreen": 6372.698400999998,
+            "openAccountMenuToAccountListLoaded": 2060.890091000001,
+            "total": 8697.400880999994
+          }
+        }
+      },
+      "userJourneyOnboardingNew": {
+        "onboardingNewWallet": {
+          "testTitle": "benchmark-onboarding-new-wallet",
+          "persona": "standard",
+          "benchmarkType": "performance",
+          "mean": {
+            "createWalletToSocialScreen": 218.4677744000015,
+            "srpButtonToPwForm": 108.18143680000358,
+            "createPwToRecoveryScreen": 8.37979059999925,
+            "skipBackupToMetricsScreen": 34.50720260000016,
+            "agreeButtonToOnboardingSuccess": 16.46410139999862,
+            "doneButtonToAssetList": 2103.6656517500014,
+            "total": 2490.3656077500054
+          },
+          "min": {
+            "createWalletToSocialScreen": 216.02685900000506,
+            "srpButtonToPwForm": 105.16307900000538,
+            "createPwToRecoveryScreen": 8.030230999997002,
+            "skipBackupToMetricsScreen": 32.5211249999993,
+            "agreeButtonToOnboardingSuccess": 15.988910999993095,
+            "doneButtonToAssetList": 1942.149188000003,
+            "total": 2329.1505030000044
+          },
+          "max": {
+            "createWalletToSocialScreen": 220.392233999999,
+            "srpButtonToPwForm": 111.80742600001395,
+            "createPwToRecoveryScreen": 8.775802999996813,
+            "skipBackupToMetricsScreen": 36.56858300000022,
+            "agreeButtonToOnboardingSuccess": 17.081455000006827,
+            "doneButtonToAssetList": 2318.1991800000033,
+            "total": 2701.348288999994
+          },
+          "stdDev": {
+            "createWalletToSocialScreen": 1.5545600979986733,
+            "srpButtonToPwForm": 2.325361084309416,
+            "createPwToRecoveryScreen": 0.2852602192004728,
+            "skipBackupToMetricsScreen": 1.3716605318639987,
+            "agreeButtonToOnboardingSuccess": 0.37184914693517257,
+            "doneButtonToAssetList": 142.74069248993797,
+            "total": 140.4149646712205
+          },
+          "p75": {
+            "createWalletToSocialScreen": 219.87902200000826,
+            "srpButtonToPwForm": 109.5779709999988,
+            "createPwToRecoveryScreen": 8.606970000000729,
+            "skipBackupToMetricsScreen": 35.369475999992574,
+            "agreeButtonToOnboardingSuccess": 16.615090999999666,
+            "doneButtonToAssetList": 2140.331535999998,
+            "total": 2525.160298000017
+          },
+          "p95": {
+            "createWalletToSocialScreen": 220.392233999999,
+            "srpButtonToPwForm": 111.80742600001395,
+            "createPwToRecoveryScreen": 8.775802999996813,
+            "skipBackupToMetricsScreen": 36.56858300000022,
+            "agreeButtonToOnboardingSuccess": 17.081455000006827,
+            "doneButtonToAssetList": 2318.1991800000033,
+            "total": 2701.348288999994
+          }
+        }
+      },
+      "userJourneyTransactions": {
+        "sendTransactions": {
+          "testTitle": "benchmark-send-transactions-power-user",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "openSendPageFromHome": 24.60341199999766,
+            "selectTokenToSendFormLoaded": 58.32381839999143,
+            "reviewTransactionToConfirmationPage": 13521.509472600004,
+            "total": 13608.379678999994
+          },
+          "min": {
+            "openSendPageFromHome": 19.593643000000156,
+            "selectTokenToSendFormLoaded": 16.8265739999988,
+            "reviewTransactionToConfirmationPage": 7853.896255,
+            "total": 7900.740129000002
+          },
+          "max": {
+            "openSendPageFromHome": 29.874978999985615,
+            "selectTokenToSendFormLoaded": 119.89278499997454,
+            "reviewTransactionToConfirmationPage": 18363.577123000003,
+            "total": 18399.99734
+          },
+          "stdDev": {
+            "openSendPageFromHome": 3.657033878451007,
+            "selectTokenToSendFormLoaded": 48.11051346419524,
+            "reviewTransactionToConfirmationPage": 3557.6017585852137,
+            "total": 3565.7695621761422
+          },
+          "p75": {
+            "openSendPageFromHome": 25.00829000000158,
+            "selectTokenToSendFormLoaded": 114.46017899998697,
+            "reviewTransactionToConfirmationPage": 15848.195311000018,
+            "total": 15986.592226000008
+          },
+          "p95": {
+            "openSendPageFromHome": 29.874978999985615,
+            "selectTokenToSendFormLoaded": 119.89278499997454,
+            "reviewTransactionToConfirmationPage": 18363.577123000003,
+            "total": 18399.99734
+          }
+        },
+        "swap": {
+          "testTitle": "benchmark-swap-power-user",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "openSwapPageFromHome": 176.1351775999996,
+            "fetchAndDisplaySwapQuotes": 638.9709619999921,
+            "total": 817.8392915999924
+          },
+          "min": {
+            "openSwapPageFromHome": 19.64757699999609,
+            "fetchAndDisplaySwapQuotes": 637.4455099999905,
+            "total": 662.1501979999884
+          },
+          "max": {
+            "openSwapPageFromHome": 313.05006700000376,
+            "fetchAndDisplaySwapQuotes": 642.5026209999924,
+            "total": 950.4955769999942
+          },
+          "stdDev": {
+            "openSwapPageFromHome": 118.38795876549433,
+            "fetchAndDisplaySwapQuotes": 2.058401907030433,
+            "total": 118.81243219875113
+          },
+          "p75": {
+            "openSwapPageFromHome": 254.14317200001096,
+            "fetchAndDisplaySwapQuotes": 638.2286469999817,
+            "total": 897.1552300000039
+          },
+          "p95": {
+            "openSwapPageFromHome": 313.05006700000376,
+            "fetchAndDisplaySwapQuotes": 642.5026209999924,
+            "total": 950.4955769999942
+          }
+        }
+      },
+      "pageLoad": {
+        "chrome-browserify-startupPowerUserHome": {
+          "testTitle": "measurePagePowerUser",
+          "persona": "powerUser",
+          "mean": {
+            "uiStartup": 6185.371994628907,
+            "load": 1291.884000000019,
+            "domContentLoaded": 1273.2380000000098,
+            "domInteractive": 37.41000000001164,
+            "firstPaint": 208.32300000001678,
+            "backgroundConnect": 2769.984997558594,
+            "firstReactRender": 26.37,
+            "initialActions": 0.99,
+            "loadScripts": 1049.195,
+            "setupStore": 16.45,
+            "numNetworkReqs": 146.66
+          },
+          "min": {
+            "uiStartup": 2324.800048828125,
+            "load": 1127.5,
+            "domContentLoaded": 1123.6999999999534,
+            "domInteractive": 18.099999999976717,
+            "firstPaint": 91.4000000001397,
+            "backgroundConnect": 322.39990234375,
+            "firstReactRender": 19,
+            "initialActions": 0,
+            "loadScripts": 911,
+            "setupStore": 5,
+            "numNetworkReqs": 80
+          },
+          "max": {
+            "uiStartup": 17884.800048828125,
+            "load": 1619.2000000001863,
+            "domContentLoaded": 1593.4000000001397,
+            "domInteractive": 308.69999999995343,
+            "firstPaint": 1205,
+            "backgroundConnect": 15086.10009765625,
+            "firstReactRender": 51,
+            "initialActions": 4,
+            "loadScripts": 1339.5,
+            "setupStore": 76,
+            "numNetworkReqs": 307
+          },
+          "stdDev": {
+            "uiStartup": 3635.3272925849024,
+            "load": 115.96695798373258,
+            "domContentLoaded": 106.67464064152193,
+            "domInteractive": 33.386852202618,
+            "firstPaint": 132.41200010195087,
+            "backgroundConnect": 3529.1048297948983,
+            "firstReactRender": 5.866267978877199,
+            "initialActions": 0.7279423054061357,
+            "loadScripts": 97.67995678902206,
+            "setupStore": 9.493550442273955,
+            "numNetworkReqs": 48.54013184984152
+          },
+          "p75": {
+            "uiStartup": 6522.300048828125,
+            "load": 1346.6999999999534,
+            "domContentLoaded": 1321.5,
+            "domInteractive": 35.800000000046566,
+            "firstPaint": 278.19999999995343,
+            "backgroundConnect": 3430.199951171875,
+            "firstReactRender": 30,
+            "initialActions": 1,
+            "loadScripts": 1101.39990234375,
+            "setupStore": 18,
+            "numNetworkReqs": 151
+          },
+          "p95": {
+            "uiStartup": 17114.89990234375,
+            "load": 1535.7000000000698,
+            "domContentLoaded": 1486.6999999999534,
+            "domInteractive": 84.59999999997672,
+            "firstPaint": 355.80000000004657,
+            "backgroundConnect": 13855,
+            "firstReactRender": 37,
+            "initialActions": 2,
+            "loadScripts": 1248,
+            "setupStore": 31,
+            "numNetworkReqs": 267
+          }
+        },
+        "chrome-browserify-startupStandardHome": {
+          "testTitle": "measurePageStandard",
+          "persona": "standard",
+          "mean": {
+            "uiStartup": 1485.6049975585938,
+            "load": 1236.0759999999966,
+            "domContentLoaded": 1228.6599999999985,
+            "domInteractive": 29.294999999995635,
+            "firstPaint": 174.12099999999248,
+            "backgroundConnect": 223.116005859375,
+            "firstReactRender": 20.18,
+            "initialActions": 1.5,
+            "loadScripts": 1021.8629907226563,
+            "setupStore": 14.1,
+            "numNetworkReqs": 35.92
+          },
+          "min": {
+            "uiStartup": 1276.10009765625,
+            "load": 1047,
+            "domContentLoaded": 1037.100000000035,
+            "domInteractive": 17.599999999976717,
+            "firstPaint": 64.90000000002328,
+            "backgroundConnect": 202.699951171875,
+            "firstReactRender": 12,
+            "initialActions": 0,
+            "loadScripts": 836.699951171875,
+            "setupStore": 6,
+            "numNetworkReqs": 27
+          },
+          "max": {
+            "uiStartup": 1930.300048828125,
+            "load": 1627,
+            "domContentLoaded": 1616.3000000000175,
+            "domInteractive": 105.60000000000582,
+            "firstPaint": 1271.5999999999767,
+            "backgroundConnect": 286.099853515625,
+            "firstReactRender": 39,
+            "initialActions": 7,
+            "loadScripts": 1396.199951171875,
+            "setupStore": 39,
+            "numNetworkReqs": 82
+          },
+          "stdDev": {
+            "uiStartup": 107.18320119764566,
+            "load": 98.35434115482818,
+            "domContentLoaded": 96.74224206622644,
+            "domInteractive": 18.410884688139095,
+            "firstPaint": 137.8863120799157,
+            "backgroundConnect": 14.723960571677873,
+            "firstReactRender": 4.639784477753251,
+            "initialActions": 1.5132745950421556,
+            "loadScripts": 94.17552865478291,
+            "setupStore": 5.554277630799525,
+            "numNetworkReqs": 16.662340771932374
+          },
+          "p75": {
+            "uiStartup": 1525.699951171875,
+            "load": 1283.3999999999942,
+            "domContentLoaded": 1267.7000000000116,
+            "domInteractive": 26,
+            "firstPaint": 216.40000000002328,
+            "backgroundConnect": 229.699951171875,
+            "firstReactRender": 21,
+            "initialActions": 2,
+            "loadScripts": 1064.5,
+            "setupStore": 17,
+            "numNetworkReqs": 36
+          },
+          "p95": {
+            "uiStartup": 1658.60009765625,
+            "load": 1407.100000000035,
+            "domContentLoaded": 1392.9000000000233,
+            "domInteractive": 82.09999999997672,
+            "firstPaint": 351,
+            "backgroundConnect": 252.800048828125,
+            "firstReactRender": 31,
+            "initialActions": 4,
+            "loadScripts": 1183.89990234375,
+            "setupStore": 22,
+            "numNetworkReqs": 80
+          }
+        },
+        "chrome-webpack-startupPowerUserHome": {
+          "testTitle": "measurePagePowerUser",
+          "persona": "powerUser",
+          "mean": {
+            "uiStartup": 1835.3569995117186,
+            "load": 770.5609999999989,
+            "domContentLoaded": 758.2130000000004,
+            "domInteractive": 43.08599999999686,
+            "firstPaint": 178.65799999999814,
+            "backgroundConnect": 467.86099609375,
+            "firstReactRender": 23.54,
+            "initialActions": 0.97,
+            "loadScripts": 755.4679907226563,
+            "setupStore": 13.35,
+            "numNetworkReqs": 170.02
+          },
+          "min": {
+            "uiStartup": 956.5,
+            "load": 663.2000000000116,
+            "domContentLoaded": 652.7999999999884,
+            "domInteractive": 20.10000000000582,
+            "firstPaint": 76.60000000000582,
+            "backgroundConnect": 176.699951171875,
+            "firstReactRender": 18,
+            "initialActions": 0,
+            "loadScripts": 650.800048828125,
+            "setupStore": 5,
+            "numNetworkReqs": 93
+          },
+          "max": {
+            "uiStartup": 5553.60009765625,
+            "load": 1218.6000000000058,
+            "domContentLoaded": 1206.7999999999884,
+            "domInteractive": 156.5,
+            "firstPaint": 1070.5,
+            "backgroundConnect": 3838,
+            "firstReactRender": 47,
+            "initialActions": 4,
+            "loadScripts": 1199.199951171875,
+            "setupStore": 43,
+            "numNetworkReqs": 365
+          },
+          "stdDev": {
+            "uiStartup": 1045.6478002980502,
+            "load": 110.95126488238094,
+            "domContentLoaded": 110.8240367925652,
+            "domInteractive": 32.085545094324786,
+            "firstPaint": 119.02433379775536,
+            "backgroundConnect": 865.1703176859897,
+            "firstReactRender": 4.704083332595204,
+            "initialActions": 0.7543871685016925,
+            "loadScripts": 109.1988641835869,
+            "setupStore": 6.2263552741551775,
+            "numNetworkReqs": 60.31881630138311
+          },
+          "p75": {
+            "uiStartup": 1836.5,
+            "load": 775.6000000000058,
+            "domContentLoaded": 762.9000000000233,
+            "domInteractive": 39.20000000006985,
+            "firstPaint": 211.70000000001164,
+            "backgroundConnect": 209.39990234375,
+            "firstReactRender": 24,
+            "initialActions": 1,
+            "loadScripts": 760.699951171875,
+            "setupStore": 16,
+            "numNetworkReqs": 187
+          },
+          "p95": {
+            "uiStartup": 4970.39990234375,
+            "load": 1057.5999999999767,
+            "domContentLoaded": 1045,
+            "domInteractive": 127.30000000001746,
+            "firstPaint": 338.20000000001164,
+            "backgroundConnect": 3302.39990234375,
+            "firstReactRender": 31,
+            "initialActions": 3,
+            "loadScripts": 1037.300048828125,
+            "setupStore": 21,
+            "numNetworkReqs": 306
+          }
+        },
+        "chrome-webpack-startupStandardHome": {
+          "testTitle": "measurePageStandard",
+          "persona": "standard",
+          "mean": {
+            "uiStartup": 926.81,
+            "load": 781.9189999999996,
+            "domContentLoaded": 775.43,
+            "domInteractive": 30.86499999999971,
+            "firstPaint": 132.24500000000174,
+            "backgroundConnect": 33.225986328125,
+            "firstReactRender": 20.4,
+            "initialActions": 0.91,
+            "loadScripts": 772.5279931640625,
+            "setupStore": 13.23,
+            "numNetworkReqs": 35.69
+          },
+          "min": {
+            "uiStartup": 751.89990234375,
+            "load": 640.5,
+            "domContentLoaded": 635.6999999999825,
+            "domInteractive": 16.20000000001164,
+            "firstPaint": 66.19999999998254,
+            "backgroundConnect": 19.5,
+            "firstReactRender": 14,
+            "initialActions": 0,
+            "loadScripts": 633.800048828125,
+            "setupStore": 8,
+            "numNetworkReqs": 27
+          },
+          "max": {
+            "uiStartup": 1225.300048828125,
+            "load": 989.8000000000175,
+            "domContentLoaded": 982.7000000000116,
+            "domInteractive": 102.40000000002328,
+            "firstPaint": 388.79999999998836,
+            "backgroundConnect": 76.099853515625,
+            "firstReactRender": 48,
+            "initialActions": 4,
+            "loadScripts": 974.699951171875,
+            "setupStore": 44,
+            "numNetworkReqs": 93
+          },
+          "stdDev": {
+            "uiStartup": 98.20982381192186,
+            "load": 98.99342573625889,
+            "domContentLoaded": 98.31317561751288,
+            "domInteractive": 19.25668390455774,
+            "firstPaint": 59.62922333051021,
+            "backgroundConnect": 10.630276516649007,
+            "firstReactRender": 6.830812543175226,
+            "initialActions": 0.7628237017817414,
+            "loadScripts": 97.20072218728966,
+            "setupStore": 5.157237632686707,
+            "numNetworkReqs": 17.54405597346292
+          },
+          "p75": {
+            "uiStartup": 984.10009765625,
+            "load": 861.5,
+            "domContentLoaded": 853.7999999999884,
+            "domInteractive": 26.5,
+            "firstPaint": 167.29999999998836,
+            "backgroundConnect": 38.300048828125,
+            "firstReactRender": 24,
+            "initialActions": 1,
+            "loadScripts": 851.699951171875,
+            "setupStore": 14,
+            "numNetworkReqs": 30
+          },
+          "p95": {
+            "uiStartup": 1112.699951171875,
+            "load": 952.8000000000466,
+            "domContentLoaded": 948.1000000000349,
+            "domInteractive": 87.5,
+            "firstPaint": 236.29999999998836,
+            "backgroundConnect": 51.800048828125,
+            "firstReactRender": 33,
+            "initialActions": 2,
+            "loadScripts": 938.39990234375,
+            "setupStore": 20,
+            "numNetworkReqs": 82
+          }
+        },
+        "firefox-browserify-startupPowerUserHome": {
+          "testTitle": "measurePagePowerUser",
+          "persona": "powerUser",
+          "mean": {
+            "uiStartup": 4251.21,
+            "load": 1980.04,
+            "domContentLoaded": 1979.36,
+            "domInteractive": 281.79,
+            "firstPaint": null,
+            "backgroundConnect": 971.13,
+            "firstReactRender": 19.03,
+            "initialActions": 1.53,
+            "loadScripts": 1918.37,
+            "setupStore": 131.98,
+            "numNetworkReqs": 202.28
+          },
+          "min": {
+            "uiStartup": 2416,
+            "load": 1352,
+            "domContentLoaded": 1352,
+            "domInteractive": 53,
+            "firstPaint": null,
+            "backgroundConnect": 145,
+            "firstReactRender": 15,
+            "initialActions": 0,
+            "loadScripts": 1334,
+            "setupStore": 12,
+            "numNetworkReqs": 106
+          },
+          "max": {
+            "uiStartup": 12809,
+            "load": 9649,
+            "domContentLoaded": 9649,
+            "domInteractive": 2159,
+            "firstPaint": null,
+            "backgroundConnect": 2376,
+            "firstReactRender": 56,
+            "initialActions": 7,
+            "loadScripts": 9473,
+            "setupStore": 2422,
+            "numNetworkReqs": 479
+          },
+          "stdDev": {
+            "uiStartup": 1345.1726751239041,
+            "load": 1051.9861873617924,
+            "domContentLoaded": 1052.106349377286,
+            "domInteractive": 330.5205680438057,
+            "firstPaint": null,
+            "backgroundConnect": 556.6382246127191,
+            "firstReactRender": 4.644254514989462,
+            "initialActions": 0.7931582439841373,
+            "loadScripts": 1044.4044490043118,
+            "setupStore": 291.9163229420376,
+            "numNetworkReqs": 64.40203102387377
+          },
+          "p75": {
+            "uiStartup": 4611,
+            "load": 2027,
+            "domContentLoaded": 2027,
+            "domInteractive": 340,
+            "backgroundConnect": 1347,
+            "firstReactRender": 20,
+            "initialActions": 2,
+            "loadScripts": 1988,
+            "setupStore": 122,
+            "numNetworkReqs": 210
+          },
+          "p95": {
+            "uiStartup": 6032,
+            "load": 2806,
+            "domContentLoaded": 2806,
+            "domInteractive": 904,
+            "backgroundConnect": 2110,
+            "firstReactRender": 25,
+            "initialActions": 2,
+            "loadScripts": 2753,
+            "setupStore": 372,
+            "numNetworkReqs": 356
+          }
+        },
+        "firefox-browserify-startupStandardHome": {
+          "testTitle": "measurePageStandard",
+          "persona": "standard",
+          "mean": {
+            "uiStartup": 1679.54,
+            "load": 1397.38,
+            "domContentLoaded": 1395.93,
+            "domInteractive": 90.69,
+            "firstPaint": null,
+            "backgroundConnect": 63.59,
+            "firstReactRender": 14.47,
+            "initialActions": 1.24,
+            "loadScripts": 1369.43,
+            "setupStore": 18.72,
+            "numNetworkReqs": 35.85
+          },
+          "min": {
+            "uiStartup": 1468,
+            "load": 1212,
+            "domContentLoaded": 1205,
+            "domInteractive": 35,
+            "firstPaint": null,
+            "backgroundConnect": 37,
+            "firstReactRender": 12,
+            "initialActions": 0,
+            "loadScripts": 1184,
+            "setupStore": 7,
+            "numNetworkReqs": 25
+          },
+          "max": {
+            "uiStartup": 2879,
+            "load": 2604,
+            "domContentLoaded": 2598,
+            "domInteractive": 969,
+            "firstPaint": null,
+            "backgroundConnect": 193,
+            "firstReactRender": 18,
+            "initialActions": 2,
+            "loadScripts": 2574,
+            "setupStore": 178,
+            "numNetworkReqs": 92
+          },
+          "stdDev": {
+            "uiStartup": 211.1653579543766,
+            "load": 187.67348134459488,
+            "domContentLoaded": 187.71165414006666,
+            "domInteractive": 97.69490211879021,
+            "firstPaint": null,
+            "backgroundConnect": 22.867922948969372,
+            "firstReactRender": 1.2605950975630522,
+            "initialActions": 0.4498888751680797,
+            "loadScripts": 186.11825568707653,
+            "setupStore": 25.531580444617994,
+            "numNetworkReqs": 17.224038434699338
+          },
+          "p75": {
+            "uiStartup": 1704,
+            "load": 1424,
+            "domContentLoaded": 1423,
+            "domInteractive": 100,
+            "backgroundConnect": 65,
+            "firstReactRender": 15,
+            "initialActions": 1,
+            "loadScripts": 1397,
+            "setupStore": 15,
+            "numNetworkReqs": 34
+          },
+          "p95": {
+            "uiStartup": 2063,
+            "load": 1567,
+            "domContentLoaded": 1567,
+            "domInteractive": 149,
+            "backgroundConnect": 109,
+            "firstReactRender": 17,
+            "initialActions": 2,
+            "loadScripts": 1535,
+            "setupStore": 47,
+            "numNetworkReqs": 86
+          }
+        },
+        "firefox-webpack-startupPowerUserHome": {
+          "testTitle": "measurePagePowerUser",
+          "persona": "powerUser",
+          "mean": {
+            "uiStartup": 4012.27,
+            "load": 1849.59,
+            "domContentLoaded": 1849.15,
+            "domInteractive": 276.19,
+            "firstPaint": null,
+            "backgroundConnect": 923.75,
+            "firstReactRender": 23.7,
+            "initialActions": 1.64,
+            "loadScripts": 1792.18,
+            "setupStore": 138.44,
+            "numNetworkReqs": 175.42
+          },
+          "min": {
+            "uiStartup": 2431,
+            "load": 1400,
+            "domContentLoaded": 1400,
+            "domInteractive": 59,
+            "firstPaint": null,
+            "backgroundConnect": 188,
+            "firstReactRender": 18,
+            "initialActions": 0,
+            "loadScripts": 1375,
+            "setupStore": 14,
+            "numNetworkReqs": 50
+          },
+          "max": {
+            "uiStartup": 5893,
+            "load": 3570,
+            "domContentLoaded": 3569,
+            "domInteractive": 2147,
+            "firstPaint": null,
+            "backgroundConnect": 3155,
+            "firstReactRender": 60,
+            "initialActions": 3,
+            "loadScripts": 3547,
+            "setupStore": 993,
+            "numNetworkReqs": 347
+          },
+          "stdDev": {
+            "uiStartup": 783.6550242932154,
+            "load": 362.3491712423253,
+            "domContentLoaded": 362.36913154958444,
+            "domInteractive": 290.2648685252833,
+            "firstPaint": null,
+            "backgroundConnect": 580.9701778060557,
+            "firstReactRender": 6.427285585688564,
+            "initialActions": 0.6248199740725323,
+            "loadScripts": 350.89295746708854,
+            "setupStore": 174.76139848376127,
+            "numNetworkReqs": 60.559256930712095
+          },
+          "p75": {
+            "uiStartup": 4517,
+            "load": 2039,
+            "domContentLoaded": 2038,
+            "domInteractive": 314,
+            "backgroundConnect": 1226,
+            "firstReactRender": 26,
+            "initialActions": 2,
+            "loadScripts": 1990,
+            "setupStore": 167,
+            "numNetworkReqs": 202
+          },
+          "p95": {
+            "uiStartup": 5336,
+            "load": 2361,
+            "domContentLoaded": 2361,
+            "domInteractive": 742,
+            "backgroundConnect": 1968,
+            "firstReactRender": 32,
+            "initialActions": 3,
+            "loadScripts": 2294,
+            "setupStore": 501,
+            "numNetworkReqs": 297
+          }
+        },
+        "firefox-webpack-startupStandardHome": {
+          "testTitle": "measurePageStandard",
+          "persona": "standard",
+          "mean": {
+            "uiStartup": 1729.9,
+            "load": 1444.33,
+            "domContentLoaded": 1443.42,
+            "domInteractive": 85.62,
+            "firstPaint": null,
+            "backgroundConnect": 65.56,
+            "firstReactRender": 16.78,
+            "initialActions": 1.32,
+            "loadScripts": 1419.09,
+            "setupStore": 22.63,
+            "numNetworkReqs": 35.37
+          },
+          "min": {
+            "uiStartup": 1478,
+            "load": 1256,
+            "domContentLoaded": 1251,
+            "domInteractive": 31,
+            "firstPaint": null,
+            "backgroundConnect": 24,
+            "firstReactRender": 13,
+            "initialActions": 0,
+            "loadScripts": 1235,
+            "setupStore": 7,
+            "numNetworkReqs": 24
+          },
+          "max": {
+            "uiStartup": 2449,
+            "load": 1797,
+            "domContentLoaded": 1797,
+            "domInteractive": 357,
+            "firstPaint": null,
+            "backgroundConnect": 387,
+            "firstReactRender": 28,
+            "initialActions": 3,
+            "loadScripts": 1751,
+            "setupStore": 180,
+            "numNetworkReqs": 90
+          },
+          "stdDev": {
+            "uiStartup": 167.62968114269023,
+            "load": 107.19030319949655,
+            "domContentLoaded": 107.40848942239157,
+            "domInteractive": 56.7786544398509,
+            "firstPaint": null,
+            "backgroundConnect": 42.50042823313666,
+            "firstReactRender": 3.6703678289784536,
+            "initialActions": 0.5810335618533575,
+            "loadScripts": 102.01883110485045,
+            "setupStore": 31.798004654380442,
+            "numNetworkReqs": 15.832659283897952
+          },
+          "p75": {
+            "uiStartup": 1785,
+            "load": 1500,
+            "domContentLoaded": 1499,
+            "domInteractive": 123,
+            "backgroundConnect": 71,
+            "firstReactRender": 17,
+            "initialActions": 2,
+            "loadScripts": 1480,
+            "setupStore": 15,
+            "numNetworkReqs": 34
+          },
+          "p95": {
+            "uiStartup": 2089,
+            "load": 1622,
+            "domContentLoaded": 1622,
+            "domInteractive": 169,
+            "backgroundConnect": 130,
+            "firstReactRender": 26,
+            "initialActions": 2,
+            "loadScripts": 1578,
+            "setupStore": 81,
+            "numNetworkReqs": 78
+          }
+        }
+      }
+    }
   }
 }

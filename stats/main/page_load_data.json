@@ -4626,5 +4626,57 @@
         }
       }
     ]
+  },
+  "e971f8fbc9bbdca4b63e1792cf6dafb2b0408a00": {
+    "timestamp": 1773692023116,
+    "commit": "e971f8f",
+    "summary": [
+      {
+        "page": "Localhost MetaMask Test Dapp",
+        "samples": 100,
+        "mean": {
+          "pageLoadTime": 1073.4890000000003,
+          "domContentLoaded": 770.3090000000008,
+          "firstPaint": 125.64,
+          "firstContentfulPaint": 125.64,
+          "largestContentfulPaint": 0
+        },
+        "p95": {
+          "pageLoadTime": 1043,
+          "domContentLoaded": 738,
+          "firstPaint": 92,
+          "firstContentfulPaint": 92,
+          "largestContentfulPaint": 0
+        },
+        "p99": {
+          "pageLoadTime": 5646.800000000047,
+          "domContentLoaded": 5605.100000000035,
+          "firstPaint": 4804,
+          "firstContentfulPaint": 4804,
+          "largestContentfulPaint": 0
+        },
+        "min": {
+          "pageLoadTime": 1006.3999999999651,
+          "domContentLoaded": 700.2999999999884,
+          "firstPaint": 64,
+          "firstContentfulPaint": 64,
+          "largestContentfulPaint": 0
+        },
+        "max": {
+          "pageLoadTime": 5646.800000000047,
+          "domContentLoaded": 5605.100000000035,
+          "firstPaint": 4804,
+          "firstContentfulPaint": 4804,
+          "largestContentfulPaint": 0
+        },
+        "standardDeviation": {
+          "pageLoadTime": 460.4326560736157,
+          "domContentLoaded": 486.60833965213044,
+          "firstPaint": 470.2401412044697,
+          "firstContentfulPaint": 470.2401412044697,
+          "largestContentfulPaint": 0
+        }
+      }
+    ]
   }
 }

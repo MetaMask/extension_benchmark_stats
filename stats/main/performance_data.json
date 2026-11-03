@@ -3234322,5 +3234322,2343 @@
         }
       }
     }
+  },
+  "f69352019bdf8e18db634edbdf1fde1978c1ebed": {
+    "timestamp": 1793724169000,
+    "presets": {
+      "interactionUserActions": {
+        "loadNewAccount": {
+          "testTitle": "benchmark-user-actions-load-new-account",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "load_new_account": 5601.4,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5601.4,
+            "inp": 102.4,
+            "fcp": 1789.799999999997,
+            "lcp": 176.51999999999825,
+            "cls": 0.03533140495537125
+          },
+          "min": {
+            "load_new_account": 5596,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5596,
+            "inp": 88,
+            "fcp": 1751.3999999999942,
+            "lcp": 164.39999999999418,
+            "cls": 0.03450276254145813
+          },
+          "max": {
+            "load_new_account": 5606,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5606,
+            "inp": 120,
+            "fcp": 1838.199999999997,
+            "lcp": 186.3000000000029,
+            "cls": 0.03600959121321112
+          },
+          "stdDev": {
+            "load_new_account": 4.127953488110059,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 4.127953488110059,
+            "inp": 11.757550765359255,
+            "fcp": 35.753153707052896,
+            "lcp": 8.588690237746452,
+            "cls": 0.0006904662077927634
+          },
+          "p75": {
+            "load_new_account": 5605,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5605,
+            "inp": 112,
+            "fcp": 1826.800000000003,
+            "lcp": 182.19999999998254,
+            "cls": 0.03600959121321112
+          },
+          "p95": {
+            "load_new_account": 5606,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5606,
+            "inp": 120,
+            "fcp": 1838.199999999997,
+            "lcp": 186.3000000000029,
+            "cls": 0.03600959121321112
+          },
+          "trimmedCount": {
+            "load_new_account": 0,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 0
+          },
+          "outliers": {
+            "load_new_account": 0,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 0,
+            "inp": 0,
+            "fcp": 0,
+            "lcp": 0,
+            "cls": 0
+          },
+          "webVitals": {
+            "runs": [
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 1759.199999999997,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 186.3000000000029,
+                "lcpRating": "good",
+                "iteration": 0
+              },
+              {
+                "cls": 0.03450276254145813,
+                "clsRating": "good",
+                "fcp": 1826.800000000003,
+                "fcpRating": "needs-improvement",
+                "inp": 96,
+                "inpRating": "good",
+                "lcp": 168.20000000001164,
+                "lcpRating": "good",
+                "iteration": 1
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 1838.199999999997,
+                "fcpRating": "needs-improvement",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 181.5,
+                "lcpRating": "good",
+                "iteration": 2
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 1773.3999999999942,
+                "fcpRating": "good",
+                "inp": 96,
+                "inpRating": "good",
+                "lcp": 164.39999999999418,
+                "lcpRating": "good",
+                "iteration": 3
+              },
+              {
+                "cls": 0.03450276254145813,
+                "clsRating": "good",
+                "fcp": 1751.3999999999942,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 182.19999999998254,
+                "lcpRating": "good",
+                "iteration": 4
+              }
+            ],
+            "aggregated": {
+              "inp": {
+                "id": "inp",
+                "mean": 102.4,
+                "min": 88,
+                "max": 120,
+                "stdDev": 11.757550765359255,
+                "cv": 11.481983169296148,
+                "p50": 96,
+                "p75": 112,
+                "p95": 120,
+                "p99": 120,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "fcp": {
+                "id": "fcp",
+                "mean": 1789.799999999997,
+                "min": 1751.3999999999942,
+                "max": 1838.199999999997,
+                "stdDev": 35.753153707052896,
+                "cv": 1.9976060848727766,
+                "p50": 1773.3999999999942,
+                "p75": 1826.800000000003,
+                "p95": 1838.199999999997,
+                "p99": 1838.199999999997,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "lcp": {
+                "id": "lcp",
+                "mean": 176.51999999999825,
+                "min": 164.39999999999418,
+                "max": 186.3000000000029,
+                "stdDev": 8.588690237746452,
+                "cv": 4.865562110665385,
+                "p50": 181.5,
+                "p75": 182.19999999998254,
+                "p95": 186.3000000000029,
+                "p99": 186.3000000000029,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "cls": {
+                "id": "cls",
+                "mean": 0.03533140495537125,
+                "min": 0.03450276254145813,
+                "max": 0.03600959121321112,
+                "stdDev": 0.0006904662077927634,
+                "cv": 1.9542563016243581,
+                "p50": 0.03563231726751777,
+                "p75": 0.03600959121321112,
+                "p95": 0.03600959121321112,
+                "p99": 0.03600959121321112,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "ratings": {
+                "inp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "fcp": {
+                  "good": 3,
+                  "needs-improvement": 2,
+                  "poor": 0,
+                  "null": 0
+                },
+                "lcp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "cls": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                }
+              }
+            }
+          }
+        },
+        "confirmTx": {
+          "testTitle": "benchmark-user-actions-confirm-tx",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "confirm_tx": 4084.3333333333335,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 566.6,
+            "longTaskMaxDuration": 239,
+            "tbt": 406.6,
+            "total": 4084.3333333333335,
+            "inp": 88,
+            "fcp": 1786.3600000000035,
+            "lcp": 168.39999999999418,
+            "cls": 0.07028321353068537
+          },
+          "min": {
+            "confirm_tx": 4063,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 540,
+            "longTaskMaxDuration": 216,
+            "tbt": 390,
+            "total": 4063,
+            "inp": 88,
+            "fcp": 1753.9000000000233,
+            "lcp": 149.89999999996508,
+            "cls": 0.06981197856446532
+          },
+          "max": {
+            "confirm_tx": 4096,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 594,
+            "longTaskMaxDuration": 270,
+            "tbt": 440,
+            "total": 4096,
+            "inp": 88,
+            "fcp": 1826.2000000000116,
+            "lcp": 192.5,
+            "cls": 0.07086604703688591
+          },
+          "stdDev": {
+            "confirm_tx": 15.107025591499546,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 22.44638055455712,
+            "longTaskMaxDuration": 19.3183850256692,
+            "tbt": 18.863721796082555,
+            "total": 15.107025591499546,
+            "inp": 0,
+            "fcp": 27.18812976282424,
+            "lcp": 16.139021035998766,
+            "cls": 0.0004359544165021827
+          },
+          "p75": {
+            "confirm_tx": 4096,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 590,
+            "longTaskMaxDuration": 251,
+            "tbt": 415,
+            "total": 4096,
+            "inp": 88,
+            "fcp": 1807.2000000000116,
+            "lcp": 181.80000000001746,
+            "cls": 0.07053744700627992
+          },
+          "p95": {
+            "confirm_tx": 4096,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 594,
+            "longTaskMaxDuration": 270,
+            "tbt": 440,
+            "total": 4096,
+            "inp": 88,
+            "fcp": 1826.2000000000116,
+            "lcp": 192.5,
+            "cls": 0.07086604703688591
+          },
+          "trimmedCount": {
+            "confirm_tx": 2,
+            "longTaskCount": 1,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 2
+          },
+          "outliers": {
+            "confirm_tx": 2,
+            "longTaskCount": 1,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 2,
+            "inp": 0,
+            "fcp": 0,
+            "lcp": 0,
+            "cls": 1
+          },
+          "webVitals": {
+            "runs": [
+              {
+                "cls": 0.07086604703688591,
+                "clsRating": "good",
+                "fcp": 1761.6999999999825,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 162,
+                "lcpRating": "good",
+                "iteration": 0
+              },
+              {
+                "cls": 0.0699173815151103,
+                "clsRating": "good",
+                "fcp": 1782.7999999999884,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 155.79999999998836,
+                "lcpRating": "good",
+                "iteration": 1
+              },
+              {
+                "cls": 0.07053744700627992,
+                "clsRating": "good",
+                "fcp": 1826.2000000000116,
+                "fcpRating": "needs-improvement",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 192.5,
+                "lcpRating": "good",
+                "iteration": 2
+              },
+              {
+                "cls": 0.07281002034732141,
+                "clsRating": "good",
+                "fcp": 1753.9000000000233,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 181.80000000001746,
+                "lcpRating": "good",
+                "iteration": 3
+              },
+              {
+                "cls": 0.06981197856446532,
+                "clsRating": "good",
+                "fcp": 1807.2000000000116,
+                "fcpRating": "needs-improvement",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 149.89999999996508,
+                "lcpRating": "good",
+                "iteration": 4
+              }
+            ],
+            "aggregated": {
+              "inp": {
+                "id": "inp",
+                "mean": 88,
+                "min": 88,
+                "max": 88,
+                "stdDev": 0,
+                "cv": 0,
+                "p50": 88,
+                "p75": 88,
+                "p95": 88,
+                "p99": 88,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "fcp": {
+                "id": "fcp",
+                "mean": 1786.3600000000035,
+                "min": 1753.9000000000233,
+                "max": 1826.2000000000116,
+                "stdDev": 27.18812976282424,
+                "cv": 1.521984916972177,
+                "p50": 1782.7999999999884,
+                "p75": 1807.2000000000116,
+                "p95": 1826.2000000000116,
+                "p99": 1826.2000000000116,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "lcp": {
+                "id": "lcp",
+                "mean": 168.39999999999418,
+                "min": 149.89999999996508,
+                "max": 192.5,
+                "stdDev": 16.139021035998766,
+                "cv": 9.583741707838078,
+                "p50": 162,
+                "p75": 181.80000000001746,
+                "p95": 192.5,
+                "p99": 192.5,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "cls": {
+                "id": "cls",
+                "mean": 0.07028321353068537,
+                "min": 0.06981197856446532,
+                "max": 0.07086604703688591,
+                "stdDev": 0.0004359544165021827,
+                "cv": 0.620282418236108,
+                "p50": 0.0699173815151103,
+                "p75": 0.07053744700627992,
+                "p95": 0.07086604703688591,
+                "p99": 0.07086604703688591,
+                "samples": 4,
+                "outliers": 1,
+                "dataQuality": "good"
+              },
+              "ratings": {
+                "inp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "fcp": {
+                  "good": 3,
+                  "needs-improvement": 2,
+                  "poor": 0,
+                  "null": 0
+                },
+                "lcp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "cls": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                }
+              }
+            }
+          }
+        },
+        "bridgeUserActions": {
+          "testTitle": "benchmark-user-actions-bridge-user-actions",
+          "persona": "standard",
+          "benchmarkType": "userAction",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "bridge_load_page": 189.6,
+            "bridge_load_asset_picker": 192,
+            "bridge_search_token": 715.75,
+            "longTaskCount": 3.6,
+            "longTaskTotalDuration": 337,
+            "longTaskMaxDuration": 130.4,
+            "tbt": 157,
+            "total": 1116.25,
+            "inp": 116.8,
+            "fcp": 1791.8749999999854,
+            "lcp": 176.61999999999534,
+            "cls": 0.03518049537709391
+          },
+          "min": {
+            "bridge_load_page": 147,
+            "bridge_load_asset_picker": 185,
+            "bridge_search_token": 710,
+            "longTaskCount": 3,
+            "longTaskTotalDuration": 260,
+            "longTaskMaxDuration": 99,
+            "tbt": 110,
+            "total": 1088,
+            "inp": 104,
+            "fcp": 1788.9000000000233,
+            "lcp": 168.90000000002328,
+            "cls": 0.03450276254145813
+          },
+          "max": {
+            "bridge_load_page": 231,
+            "bridge_load_asset_picker": 200,
+            "bridge_search_token": 721,
+            "longTaskCount": 5,
+            "longTaskTotalDuration": 408,
+            "longTaskMaxDuration": 167,
+            "tbt": 214,
+            "total": 1159,
+            "inp": 128,
+            "fcp": 1795.6999999999534,
+            "lcp": 187.5,
+            "cls": 0.03563231726751777
+          },
+          "stdDev": {
+            "bridge_load_page": 29.54048070021881,
+            "bridge_load_asset_picker": 5.612486080160912,
+            "bridge_search_token": 4.14578098794425,
+            "longTaskCount": 0.8,
+            "longTaskTotalDuration": 62.42435422172984,
+            "longTaskMaxDuration": 25.873538606073964,
+            "tbt": 40.45738498716891,
+            "total": 27.261465477849864,
+            "inp": 9.6,
+            "fcp": 2.59651208351653,
+            "lcp": 6.474998069494273,
+            "cls": 0.0005533665430790706
+          },
+          "p75": {
+            "bridge_load_page": 213,
+            "bridge_load_asset_picker": 194,
+            "bridge_search_token": 718,
+            "longTaskCount": 4,
+            "longTaskTotalDuration": 388,
+            "longTaskMaxDuration": 154,
+            "tbt": 188,
+            "total": 1120,
+            "inp": 128,
+            "fcp": 1792.6999999999534,
+            "lcp": 179.5,
+            "cls": 0.03563231726751777
+          },
+          "p95": {
+            "bridge_load_page": 231,
+            "bridge_load_asset_picker": 200,
+            "bridge_search_token": 721,
+            "longTaskCount": 5,
+            "longTaskTotalDuration": 408,
+            "longTaskMaxDuration": 167,
+            "tbt": 214,
+            "total": 1159,
+            "inp": 128,
+            "fcp": 1795.6999999999534,
+            "lcp": 187.5,
+            "cls": 0.03563231726751777
+          },
+          "trimmedCount": {
+            "bridge_load_page": 0,
+            "bridge_load_asset_picker": 1,
+            "bridge_search_token": 1,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1
+          },
+          "outliers": {
+            "bridge_load_page": 0,
+            "bridge_load_asset_picker": 1,
+            "bridge_search_token": 1,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1,
+            "inp": 0,
+            "fcp": 1,
+            "lcp": 0,
+            "cls": 0
+          },
+          "webVitals": {
+            "runs": [
+              {
+                "cls": 0.03450276254145813,
+                "clsRating": "good",
+                "fcp": 1788.9000000000233,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 168.90000000002328,
+                "lcpRating": "good",
+                "iteration": 0
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 1790.2000000000116,
+                "fcpRating": "good",
+                "inp": 104,
+                "inpRating": "good",
+                "lcp": 187.5,
+                "lcpRating": "good",
+                "iteration": 1
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 1795.6999999999534,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 172,
+                "lcpRating": "good",
+                "iteration": 2
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 1820.9000000000233,
+                "fcpRating": "needs-improvement",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 179.5,
+                "lcpRating": "good",
+                "iteration": 3
+              },
+              {
+                "cls": 0.03450276254145813,
+                "clsRating": "good",
+                "fcp": 1792.6999999999534,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 175.19999999995343,
+                "lcpRating": "good",
+                "iteration": 4
+              }
+            ],
+            "aggregated": {
+              "inp": {
+                "id": "inp",
+                "mean": 116.8,
+                "min": 104,
+                "max": 128,
+                "stdDev": 9.6,
+                "cv": 8.21917808219178,
+                "p50": 112,
+                "p75": 128,
+                "p95": 128,
+                "p99": 128,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "fcp": {
+                "id": "fcp",
+                "mean": 1791.8749999999854,
+                "min": 1788.9000000000233,
+                "max": 1795.6999999999534,
+                "stdDev": 2.59651208351653,
+                "cv": 0.14490475527124108,
+                "p50": 1790.2000000000116,
+                "p75": 1792.6999999999534,
+                "p95": 1795.6999999999534,
+                "p99": 1795.6999999999534,
+                "samples": 4,
+                "outliers": 1,
+                "dataQuality": "good"
+              },
+              "lcp": {
+                "id": "lcp",
+                "mean": 176.61999999999534,
+                "min": 168.90000000002328,
+                "max": 187.5,
+                "stdDev": 6.474998069494273,
+                "cv": 3.6660616405245405,
+                "p50": 175.19999999995343,
+                "p75": 179.5,
+                "p95": 187.5,
+                "p99": 187.5,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "cls": {
+                "id": "cls",
+                "mean": 0.03518049537709391,
+                "min": 0.03450276254145813,
+                "max": 0.03563231726751777,
+                "stdDev": 0.0005533665430790706,
+                "cv": 1.5729356200008728,
+                "p50": 0.03563231726751777,
+                "p75": 0.03563231726751777,
+                "p95": 0.03563231726751777,
+                "p99": 0.03563231726751777,
+                "samples": 5,
+                "outliers": 0,
+                "dataQuality": "good"
+              },
+              "ratings": {
+                "inp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "fcp": {
+                  "good": 4,
+                  "needs-improvement": 1,
+                  "poor": 0,
+                  "null": 0
+                },
+                "lcp": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "cls": {
+                  "good": 5,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                }
+              }
+            }
+          }
+        }
+      },
+      "pageLoadBenchmark": {
+        "dappPageLoad": {
+          "testTitle": "dappPageLoad",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "mean": {
+            "pageLoadTime": 794.6298969072157,
+            "domContentLoaded": 766.0618556701032,
+            "firstPaint": 56.816326530612244,
+            "firstContentfulPaint": 56.816326530612244,
+            "largestContentfulPaint": 0
+          },
+          "min": {
+            "pageLoadTime": 773.3000000000029,
+            "domContentLoaded": 745.6000000000058,
+            "firstPaint": 52,
+            "firstContentfulPaint": 52,
+            "largestContentfulPaint": 0
+          },
+          "max": {
+            "pageLoadTime": 819.2999999999884,
+            "domContentLoaded": 788.6999999999825,
+            "firstPaint": 64,
+            "firstContentfulPaint": 64,
+            "largestContentfulPaint": 0
+          },
+          "stdDev": {
+            "pageLoadTime": 9.472316310070871,
+            "domContentLoaded": 8.873828580150104,
+            "firstPaint": 3.127713316027434,
+            "firstContentfulPaint": 3.127713316027434,
+            "largestContentfulPaint": 0
+          },
+          "p75": {
+            "pageLoadTime": 801.2000000000116,
+            "domContentLoaded": 772.4000000000087,
+            "firstPaint": 60,
+            "firstContentfulPaint": 60,
+            "largestContentfulPaint": 0
+          },
+          "p95": {
+            "pageLoadTime": 813.7000000000116,
+            "domContentLoaded": 782.9000000000087,
+            "firstPaint": 64,
+            "firstContentfulPaint": 64,
+            "largestContentfulPaint": 0
+          },
+          "trimmedCount": {
+            "pageLoadTime": 2,
+            "domContentLoaded": 3,
+            "firstPaint": 2,
+            "firstContentfulPaint": 2,
+            "largestContentfulPaint": 0
+          },
+          "outliers": {
+            "pageLoadTime": 3,
+            "domContentLoaded": 3,
+            "firstPaint": 2,
+            "firstContentfulPaint": 2,
+            "largestContentfulPaint": 100
+          }
+        }
+      },
+      "userJourneyAccountManagement": {
+        "importSrpHome": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        }
+      },
+      "userJourneyAssets": {
+        "assetDetails": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        },
+        "solanaAssetDetails": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        }
+      },
+      "userJourneyOnboardingImport": {
+        "onboardingImportWallet": {
+          "testTitle": "benchmark-onboarding-import-wallet",
+          "persona": "powerUser",
+          "benchmarkType": "performance",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "importWalletToSocialScreen": 233.73617349999586,
+            "srpButtonToSrpForm": 48.207128750000265,
+            "confirmSrpToPwForm": 29.424637499998425,
+            "pwFormToMetricsScreen": 140.77916700000424,
+            "metricsToWalletReadyScreen": 30.59312739999732,
+            "doneButtonToHomeScreen": 2269.4863177499974,
+            "openAccountMenuToAccountListLoaded": 3315.6722216666626,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 6053.4650751999925
+          },
+          "min": {
+            "importWalletToSocialScreen": 230.26976099999592,
+            "srpButtonToSrpForm": 47.27168999999412,
+            "confirmSrpToPwForm": 29.038732999993954,
+            "pwFormToMetricsScreen": 138.04881400000886,
+            "metricsToWalletReadyScreen": 27.045054999995045,
+            "doneButtonToHomeScreen": 2225.908079999994,
+            "openAccountMenuToAccountListLoaded": 3313.5091810000013,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 5941.151655999995
+          },
+          "max": {
+            "importWalletToSocialScreen": 238.0871119999938,
+            "srpButtonToSrpForm": 49.46731600000203,
+            "confirmSrpToPwForm": 29.66547599999467,
+            "pwFormToMetricsScreen": 142.74073399999907,
+            "metricsToWalletReadyScreen": 33.783864999997604,
+            "doneButtonToHomeScreen": 2341.4134090000007,
+            "openAccountMenuToAccountListLoaded": 3318.8513239999884,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 6189.741027999999
+          },
+          "stdDev": {
+            "importWalletToSocialScreen": 3.119000646972165,
+            "srpButtonToSrpForm": 0.8004605868383219,
+            "confirmSrpToPwForm": 0.24999570543736807,
+            "pwFormToMetricsScreen": 1.830787673459135,
+            "metricsToWalletReadyScreen": 2.4287243730002754,
+            "doneButtonToHomeScreen": 45.57817215773763,
+            "openAccountMenuToAccountListLoaded": 2.2962155736379297,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 84.34714130971415
+          },
+          "p75": {
+            "importWalletToSocialScreen": 235.24003299999458,
+            "srpButtonToSrpForm": 48.198215000003984,
+            "confirmSrpToPwForm": 29.62473200000386,
+            "pwFormToMetricsScreen": 142.11462400000892,
+            "metricsToWalletReadyScreen": 32.80646699999488,
+            "doneButtonToHomeScreen": 2275.7456999999995,
+            "openAccountMenuToAccountListLoaded": 3318.8513239999884,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 6097.849856999994
+          },
+          "p95": {
+            "importWalletToSocialScreen": 238.0871119999938,
+            "srpButtonToSrpForm": 49.46731600000203,
+            "confirmSrpToPwForm": 29.66547599999467,
+            "pwFormToMetricsScreen": 142.74073399999907,
+            "metricsToWalletReadyScreen": 33.783864999997604,
+            "doneButtonToHomeScreen": 2341.4134090000007,
+            "openAccountMenuToAccountListLoaded": 3318.8513239999884,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 6189.741027999999
+          },
+          "trimmedCount": {
+            "importWalletToSocialScreen": 1,
+            "srpButtonToSrpForm": 1,
+            "confirmSrpToPwForm": 1,
+            "pwFormToMetricsScreen": 1,
+            "metricsToWalletReadyScreen": 0,
+            "doneButtonToHomeScreen": 1,
+            "openAccountMenuToAccountListLoaded": 2,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 0
+          },
+          "outliers": {
+            "importWalletToSocialScreen": 1,
+            "srpButtonToSrpForm": 1,
+            "confirmSrpToPwForm": 1,
+            "pwFormToMetricsScreen": 1,
+            "metricsToWalletReadyScreen": 0,
+            "doneButtonToHomeScreen": 1,
+            "openAccountMenuToAccountListLoaded": 2,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 0
+          }
+        }
+      },
+      "userJourneyOnboardingNew": {
+        "onboardingNewWallet": {
+          "testTitle": "benchmark-onboarding-new-wallet",
+          "persona": "standard",
+          "benchmarkType": "performance",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "createWalletToSocialScreen": 229.53725619999895,
+            "srpButtonToPwForm": 26.82191525000053,
+            "createPwToRecoveryScreen": 117.39012240000011,
+            "skipBackupToMetricsScreen": 20.12128075000055,
+            "agreeButtonToOnboardingSuccess": 37.10694719999883,
+            "doneButtonToAssetList": 1543.193309000002,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1952.5932962499992
+          },
+          "min": {
+            "createWalletToSocialScreen": 225.3879239999951,
+            "srpButtonToPwForm": 25.988245999993524,
+            "createPwToRecoveryScreen": 112.68291899999895,
+            "skipBackupToMetricsScreen": 19.425193999995827,
+            "agreeButtonToOnboardingSuccess": 28.88656600000104,
+            "doneButtonToAssetList": 1523.5388179999936,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1914.1989669999966
+          },
+          "max": {
+            "createWalletToSocialScreen": 232.45041599999968,
+            "srpButtonToPwForm": 27.608318000005966,
+            "createPwToRecoveryScreen": 127.71548199999961,
+            "skipBackupToMetricsScreen": 20.405305000007502,
+            "agreeButtonToOnboardingSuccess": 52.067684999994526,
+            "doneButtonToAssetList": 1556.5255260000122,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1986.5243879999907
+          },
+          "stdDev": {
+            "createWalletToSocialScreen": 2.7392907181738826,
+            "srpButtonToPwForm": 0.6053468665569764,
+            "createPwToRecoveryScreen": 5.6434152033502825,
+            "skipBackupToMetricsScreen": 0.4033746919175468,
+            "agreeButtonToOnboardingSuccess": 8.59238620229077,
+            "doneButtonToAssetList": 14.189411253182488,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 28.29948773821351
+          },
+          "p75": {
+            "createWalletToSocialScreen": 231.43873000000895,
+            "srpButtonToPwForm": 27.120529000007082,
+            "createPwToRecoveryScreen": 119.10098200000357,
+            "skipBackupToMetricsScreen": 20.346550999998726,
+            "agreeButtonToOnboardingSuccess": 40.70062499999767,
+            "doneButtonToAssetList": 1556.5255260000122,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1971.6778120000236
+          },
+          "p95": {
+            "createWalletToSocialScreen": 232.45041599999968,
+            "srpButtonToPwForm": 27.608318000005966,
+            "createPwToRecoveryScreen": 127.71548199999961,
+            "skipBackupToMetricsScreen": 20.405305000007502,
+            "agreeButtonToOnboardingSuccess": 52.067684999994526,
+            "doneButtonToAssetList": 1556.5255260000122,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 0,
+            "longTaskMaxDuration": 0,
+            "tbt": 0,
+            "total": 1986.5243879999907
+          },
+          "trimmedCount": {
+            "createWalletToSocialScreen": 0,
+            "srpButtonToPwForm": 1,
+            "createPwToRecoveryScreen": 0,
+            "skipBackupToMetricsScreen": 1,
+            "agreeButtonToOnboardingSuccess": 0,
+            "doneButtonToAssetList": 2,
+            "longTaskCount": 1,
+            "longTaskTotalDuration": 1,
+            "longTaskMaxDuration": 1,
+            "tbt": 1,
+            "total": 1
+          },
+          "outliers": {
+            "createWalletToSocialScreen": 0,
+            "srpButtonToPwForm": 1,
+            "createPwToRecoveryScreen": 0,
+            "skipBackupToMetricsScreen": 1,
+            "agreeButtonToOnboardingSuccess": 0,
+            "doneButtonToAssetList": 2,
+            "longTaskCount": 1,
+            "longTaskTotalDuration": 1,
+            "longTaskMaxDuration": 1,
+            "tbt": 1,
+            "total": 1
+          }
+        }
+      },
+      "userJourneyTransactions": {
+        "sendTransactions": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        },
+        "swap": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        }
+      },
+      "pageLoad": {
+        "chrome-webpack-startupPowerUserHome": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        },
+        "chrome-webpack-startupStandardHome": {
+          "testTitle": "measurePageStandard",
+          "persona": "standard",
+          "platform": "chrome",
+          "buildType": "webpack",
+          "mean": {
+            "uiStartup": 970.8743956030869,
+            "load": 652.8988636363646,
+            "domContentLoaded": 647.1534883720956,
+            "domInteractive": 16.962500000000727,
+            "firstPaint": 120.2111111111103,
+            "backgroundConnect": 32.585719517299104,
+            "firstReactRender": 1.6888888888888889,
+            "initialActions": 1.550561797752809,
+            "loadScripts": 639.4241255836926,
+            "setupStore": 21.152941176470588,
+            "numNetworkReqs": 31.765432098765434,
+            "longTaskCount": 2,
+            "longTaskTotalDuration": 618.5731707317074,
+            "longTaskMaxDuration": 463.56666666666666,
+            "tbt": 520.9058823529411,
+            "inp": 104.71910112359551,
+            "fcp": 433.6411111111101,
+            "lcp": 121.73536585365733,
+            "cls": 0.0360095912132112
+          },
+          "min": {
+            "uiStartup": 908.5,
+            "load": 603.3999999999942,
+            "domContentLoaded": 598.7999999999884,
+            "domInteractive": 13.399999999965075,
+            "firstPaint": 46.899999999965075,
+            "backgroundConnect": 26.699951171875,
+            "firstReactRender": 0,
+            "initialActions": 1,
+            "loadScripts": 587.800048828125,
+            "setupStore": 13,
+            "numNetworkReqs": 29,
+            "longTaskCount": 2,
+            "longTaskTotalDuration": 514,
+            "longTaskMaxDuration": 414,
+            "tbt": 423,
+            "inp": 48,
+            "fcp": 85.09999999997672,
+            "lcp": 52.399999999965075,
+            "cls": 0.03600959121321112
+          },
+          "max": {
+            "uiStartup": 1030.5,
+            "load": 705.9000000000233,
+            "domContentLoaded": 693.2999999999884,
+            "domInteractive": 22.79999999998836,
+            "firstPaint": 192.39999999999418,
+            "backgroundConnect": 44.2001953125,
+            "firstReactRender": 3,
+            "initialActions": 2,
+            "loadScripts": 687,
+            "setupStore": 39,
+            "numNetworkReqs": 36,
+            "longTaskCount": 2,
+            "longTaskTotalDuration": 729,
+            "longTaskMaxDuration": 521,
+            "tbt": 603,
+            "inp": 152,
+            "fcp": 699.6000000000058,
+            "lcp": 199.70000000001164,
+            "cls": 0.03600959121321112
+          },
+          "stdDev": {
+            "uiStartup": 24.85335892183055,
+            "load": 22.725868791865796,
+            "domContentLoaded": 21.715275395579155,
+            "domInteractive": 1.9339968329877817,
+            "firstPaint": 42.04698283387293,
+            "backgroundConnect": 3.9952863392441236,
+            "firstReactRender": 0.5300826863056262,
+            "initialActions": 0.49743693530738536,
+            "loadScripts": 21.785947549582836,
+            "setupStore": 6.508828181067423,
+            "numNetworkReqs": 1.7865865442114253,
+            "longTaskCount": 0,
+            "longTaskTotalDuration": 37.89781848660977,
+            "longTaskMaxDuration": 25.124600604896298,
+            "tbt": 35.024570713046835,
+            "inp": 28.672889267865944,
+            "fcp": 240.91619792157329,
+            "lcp": 41.63230561964337,
+            "cls": 7.632783294297951E-17
+          },
+          "p75": {
+            "uiStartup": 985.300048828125,
+            "load": 666,
+            "domContentLoaded": 659.6000000000058,
+            "domInteractive": 17.800000000017462,
+            "firstPaint": 153.69999999995343,
+            "backgroundConnect": 35.300048828125,
+            "firstReactRender": 2,
+            "initialActions": 2,
+            "loadScripts": 652.89990234375,
+            "setupStore": 24,
+            "numNetworkReqs": 32,
+            "longTaskCount": 2,
+            "longTaskTotalDuration": 642,
+            "longTaskMaxDuration": 481,
+            "tbt": 545,
+            "inp": 128,
+            "fcp": 657.2000000000116,
+            "lcp": 158.09999999997672,
+            "cls": 0.03600959121321112
+          },
+          "p95": {
+            "uiStartup": 1009.199951171875,
+            "load": 691.5,
+            "domContentLoaded": 685.1000000000349,
+            "domInteractive": 20.399999999965075,
+            "firstPaint": 174.39999999999418,
+            "backgroundConnect": 38.60009765625,
+            "firstReactRender": 2,
+            "initialActions": 2,
+            "loadScripts": 679.199951171875,
+            "setupStore": 36,
+            "numNetworkReqs": 35,
+            "longTaskCount": 2,
+            "longTaskTotalDuration": 673,
+            "longTaskMaxDuration": 502,
+            "tbt": 579,
+            "inp": 136,
+            "fcp": 688.9000000000233,
+            "lcp": 174.59999999997672,
+            "cls": 0.03600959121321112
+          },
+          "trimmedCount": {
+            "uiStartup": 8,
+            "load": 2,
+            "domContentLoaded": 4,
+            "domInteractive": 10,
+            "firstPaint": 0,
+            "backgroundConnect": 6,
+            "firstReactRender": 0,
+            "initialActions": 1,
+            "loadScripts": 3,
+            "setupStore": 5,
+            "numNetworkReqs": 9,
+            "longTaskCount": 11,
+            "longTaskTotalDuration": 8,
+            "longTaskMaxDuration": 0,
+            "tbt": 5
+          },
+          "outliers": {
+            "uiStartup": 8,
+            "load": 2,
+            "domContentLoaded": 4,
+            "domInteractive": 10,
+            "firstPaint": 0,
+            "backgroundConnect": 6,
+            "firstReactRender": 0,
+            "initialActions": 1,
+            "loadScripts": 3,
+            "setupStore": 5,
+            "numNetworkReqs": 9,
+            "longTaskCount": 11,
+            "longTaskTotalDuration": 8,
+            "longTaskMaxDuration": 0,
+            "tbt": 5
+          },
+          "webVitals": {
+            "runs": [
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 616.5,
+                "fcpRating": "good",
+                "inp": 96,
+                "inpRating": "good",
+                "lcp": 183,
+                "lcpRating": "good",
+                "iteration": 10
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 169.20000000001164,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 75.60000000000582,
+                "lcpRating": "good",
+                "iteration": 11
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 630.8000000000029,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 151.09999999999127,
+                "lcpRating": "good",
+                "iteration": 12
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 204.5,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 115.59999999999127,
+                "lcpRating": "good",
+                "iteration": 13
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 637.5,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 163.60000000000582,
+                "lcpRating": "good",
+                "iteration": 14
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 639.3000000000175,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 633.6000000000058,
+                "lcpRating": "good",
+                "iteration": 15
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 156.5,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 56.70000000001164,
+                "lcpRating": "good",
+                "iteration": 16
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 602.3999999999942,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 121.19999999998254,
+                "lcpRating": "good",
+                "iteration": 17
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 643.6999999999825,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 172.09999999997672,
+                "lcpRating": "good",
+                "iteration": 18
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 639.7000000000116,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 159.30000000001746,
+                "lcpRating": "good",
+                "iteration": 19
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 670.3999999999942,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 186.69999999998254,
+                "lcpRating": "good",
+                "iteration": 20
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 176.89999999999418,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 66.39999999999418,
+                "lcpRating": "good",
+                "iteration": 21
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 646.1000000000058,
+                "fcpRating": "good",
+                "inp": 96,
+                "inpRating": "good",
+                "lcp": 137.90000000002328,
+                "lcpRating": "good",
+                "iteration": 22
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 692.9000000000233,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 166,
+                "lcpRating": "good",
+                "iteration": 23
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 158.79999999998836,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 59.60000000000582,
+                "lcpRating": "good",
+                "iteration": 24
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 114.19999999998254,
+                "fcpRating": "good",
+                "inp": 56,
+                "inpRating": "good",
+                "lcp": 57.39999999999418,
+                "lcpRating": "good",
+                "iteration": 25
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 605.2999999999884,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 600.6999999999825,
+                "lcpRating": "good",
+                "iteration": 26
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 623,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 154.59999999997672,
+                "lcpRating": "good",
+                "iteration": 27
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 126.29999999998836,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 58.10000000000582,
+                "lcpRating": "good",
+                "iteration": 28
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 187.89999999999418,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 119.79999999998836,
+                "lcpRating": "good",
+                "iteration": 29
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 699.6000000000058,
+                "fcpRating": "good",
+                "inp": 104,
+                "inpRating": "good",
+                "lcp": 199.70000000001164,
+                "lcpRating": "good",
+                "iteration": 30
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 649.1000000000058,
+                "fcpRating": "good",
+                "inp": 56,
+                "inpRating": "good",
+                "lcp": 138.10000000000582,
+                "lcpRating": "good",
+                "iteration": 31
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 164.60000000000582,
+                "fcpRating": "good",
+                "inp": 56,
+                "inpRating": "good",
+                "lcp": 76.39999999999418,
+                "lcpRating": "good",
+                "iteration": 32
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 662.5,
+                "fcpRating": "good",
+                "inp": 104,
+                "inpRating": "good",
+                "lcp": 149.69999999998254,
+                "lcpRating": "good",
+                "iteration": 33
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 661.8999999999942,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 656.6000000000058,
+                "lcpRating": "good",
+                "iteration": 34
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 665.2999999999884,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 133,
+                "lcpRating": "good",
+                "iteration": 35
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 167.90000000002328,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 70.40000000002328,
+                "lcpRating": "good",
+                "iteration": 36
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 186.60000000000582,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 106.70000000001164,
+                "lcpRating": "good",
+                "iteration": 37
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 203.20000000001164,
+                "fcpRating": "good",
+                "inp": 152,
+                "inpRating": "good",
+                "lcp": 142.10000000000582,
+                "lcpRating": "good",
+                "iteration": 38
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 688.9000000000233,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 171,
+                "lcpRating": "good",
+                "iteration": 39
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 697.3000000000175,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 171.10000000000582,
+                "lcpRating": "good",
+                "iteration": 40
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 184.70000000001164,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 78.5,
+                "lcpRating": "good",
+                "iteration": 41
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 204,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 100.70000000001164,
+                "lcpRating": "good",
+                "iteration": 42
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 161.70000000001164,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 66.30000000001746,
+                "lcpRating": "good",
+                "iteration": 43
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 641.8000000000175,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 167.20000000001164,
+                "lcpRating": "good",
+                "iteration": 44
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 295.1000000000058,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 291.8999999999942,
+                "lcpRating": "good",
+                "iteration": 45
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 150.69999999998254,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 63.69999999998254,
+                "lcpRating": "good",
+                "iteration": 46
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 657.6000000000058,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 164.10000000000582,
+                "lcpRating": "good",
+                "iteration": 47
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 628,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 152.79999999998836,
+                "lcpRating": "good",
+                "iteration": 48
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 137.70000000001164,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 58.80000000001746,
+                "lcpRating": "good",
+                "iteration": 49
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 676.7000000000116,
+                "fcpRating": "good",
+                "inp": 96,
+                "inpRating": "good",
+                "lcp": 186.40000000002328,
+                "lcpRating": "good",
+                "iteration": 50
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 632.3999999999651,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 144.19999999995343,
+                "lcpRating": "good",
+                "iteration": 51
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 196.40000000002328,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 113.70000000001164,
+                "lcpRating": "good",
+                "iteration": 52
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 640.1999999999534,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 158.09999999997672,
+                "lcpRating": "good",
+                "iteration": 53
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 149.79999999998836,
+                "fcpRating": "good",
+                "inp": 56,
+                "inpRating": "good",
+                "lcp": 52.399999999965075,
+                "lcpRating": "good",
+                "iteration": 54
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 192.70000000001164,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 113.10000000003492,
+                "lcpRating": "good",
+                "iteration": 55
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 183.5,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 67,
+                "lcpRating": "good",
+                "iteration": 56
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 85.09999999997672,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 64.09999999997672,
+                "lcpRating": "good",
+                "iteration": 57
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 199.5,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 134.40000000002328,
+                "lcpRating": "good",
+                "iteration": 58
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 662.2000000000116,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 656.6000000000349,
+                "lcpRating": "good",
+                "iteration": 59
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 677,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 158.09999999997672,
+                "lcpRating": "good",
+                "iteration": 60
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 123.79999999998836,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 62.29999999998836,
+                "lcpRating": "good",
+                "iteration": 61
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 642.2999999999884,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 138.90000000002328,
+                "lcpRating": "good",
+                "iteration": 62
+              },
+              {
+                "cls": 0.03563231726751777,
+                "clsRating": "good",
+                "fcp": 100.29999999998836,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 61.59999999997672,
+                "lcpRating": "good",
+                "iteration": 63
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 634.4000000000233,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 125.70000000001164,
+                "lcpRating": "good",
+                "iteration": 64
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 658.0999999999767,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 161.40000000002328,
+                "lcpRating": "good",
+                "iteration": 65
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 157.40000000002328,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 69.5,
+                "lcpRating": "good",
+                "iteration": 66
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 108.59999999997672,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 60.20000000001164,
+                "lcpRating": "good",
+                "iteration": 67
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 661.8999999999651,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 124.09999999997672,
+                "lcpRating": "good",
+                "iteration": 68
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 208.5,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 137.59999999997672,
+                "lcpRating": "good",
+                "iteration": 69
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 157.10000000003492,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 87.30000000004657,
+                "lcpRating": "good",
+                "iteration": 70
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 170.70000000001164,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 69.70000000001164,
+                "lcpRating": "good",
+                "iteration": 71
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 200.90000000002328,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 108.60000000003492,
+                "lcpRating": "good",
+                "iteration": 72
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 193.70000000001164,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 85.60000000003492,
+                "lcpRating": "good",
+                "iteration": 73
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 630.3999999999651,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 156.79999999998836,
+                "lcpRating": "good",
+                "iteration": 74
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 667.7999999999884,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 144.90000000002328,
+                "lcpRating": "good",
+                "iteration": 75
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 638.7999999999884,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 143.20000000001164,
+                "lcpRating": "good",
+                "iteration": 76
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 199.5,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 116.59999999997672,
+                "lcpRating": "good",
+                "iteration": 77
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 689.5,
+                "fcpRating": "good",
+                "inp": 152,
+                "inpRating": "good",
+                "lcp": 147.79999999998836,
+                "lcpRating": "good",
+                "iteration": 78
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 157.90000000002328,
+                "fcpRating": "good",
+                "inp": 56,
+                "inpRating": "good",
+                "lcp": 66.29999999998836,
+                "lcpRating": "good",
+                "iteration": 79
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 643.8999999999651,
+                "fcpRating": "good",
+                "inp": 200,
+                "inpRating": "good",
+                "lcp": 172.09999999997672,
+                "lcpRating": "good",
+                "iteration": 80
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 647.5,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 160.39999999996508,
+                "lcpRating": "good",
+                "iteration": 81
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 653.6000000000349,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 156,
+                "lcpRating": "good",
+                "iteration": 82
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 176.30000000004657,
+                "fcpRating": "good",
+                "inp": 88,
+                "inpRating": "good",
+                "lcp": 102.90000000002328,
+                "lcpRating": "good",
+                "iteration": 83
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 657.2000000000116,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 130.09999999997672,
+                "lcpRating": "good",
+                "iteration": 84
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 628.7000000000116,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 624.2999999999884,
+                "lcpRating": "good",
+                "iteration": 85
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 662.2999999999884,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 658.2000000000116,
+                "lcpRating": "good",
+                "iteration": 86
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 661,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 652,
+                "lcpRating": "good",
+                "iteration": 87
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 675.8999999999651,
+                "fcpRating": "good",
+                "inp": 104,
+                "inpRating": "good",
+                "lcp": 165.79999999998836,
+                "lcpRating": "good",
+                "iteration": 88
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 674.5999999999767,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 160.39999999996508,
+                "lcpRating": "good",
+                "iteration": 89
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 246.5,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 128.5,
+                "lcpRating": "good",
+                "iteration": 90
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 185.29999999998836,
+                "fcpRating": "good",
+                "inp": 64,
+                "inpRating": "good",
+                "lcp": 88,
+                "lcpRating": "good",
+                "iteration": 91
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 662.5999999999767,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 174.59999999997672,
+                "lcpRating": "good",
+                "iteration": 92
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 651.7999999999884,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 156.39999999996508,
+                "lcpRating": "good",
+                "iteration": 93
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 633.5999999999767,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 134.39999999996508,
+                "lcpRating": "good",
+                "iteration": 94
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 166.59999999997672,
+                "fcpRating": "good",
+                "inp": 48,
+                "inpRating": "good",
+                "lcp": 79.40000000002328,
+                "lcpRating": "good",
+                "iteration": 95
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 639.1000000000349,
+                "fcpRating": "good",
+                "inp": 112,
+                "inpRating": "good",
+                "lcp": 163.10000000003492,
+                "lcpRating": "good",
+                "iteration": 96
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 193.79999999998836,
+                "fcpRating": "good",
+                "inp": 120,
+                "inpRating": "good",
+                "lcp": 128.79999999998836,
+                "lcpRating": "good",
+                "iteration": 97
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 161.89999999996508,
+                "fcpRating": "good",
+                "inp": 128,
+                "inpRating": "good",
+                "lcp": 63.29999999998836,
+                "lcpRating": "good",
+                "iteration": 98
+              },
+              {
+                "cls": 0.03600959121321112,
+                "clsRating": "good",
+                "fcp": 658.2999999999884,
+                "fcpRating": "good",
+                "inp": 136,
+                "inpRating": "good",
+                "lcp": 143.5,
+                "lcpRating": "good",
+                "iteration": 99
+              }
+            ],
+            "aggregated": {
+              "inp": {
+                "id": "inp",
+                "mean": 104.71910112359551,
+                "min": 48,
+                "max": 152,
+                "stdDev": 28.672889267865944,
+                "cv": 27.380763356653098,
+                "p50": 112,
+                "p75": 128,
+                "p95": 136,
+                "p99": 152,
+                "samples": 89,
+                "outliers": 1,
+                "dataQuality": "good"
+              },
+              "fcp": {
+                "id": "fcp",
+                "mean": 433.6411111111101,
+                "min": 85.09999999997672,
+                "max": 699.6000000000058,
+                "stdDev": 240.91619792157329,
+                "cv": 55.55658625269141,
+                "p50": 623,
+                "p75": 657.2000000000116,
+                "p95": 688.9000000000233,
+                "p99": 699.6000000000058,
+                "samples": 90,
+                "outliers": 0,
+                "dataQuality": "unreliable"
+              },
+              "lcp": {
+                "id": "lcp",
+                "mean": 121.73536585365733,
+                "min": 52.399999999965075,
+                "max": 199.70000000001164,
+                "stdDev": 41.63230561964337,
+                "cv": 34.19902287860303,
+                "p50": 130.09999999997672,
+                "p75": 158.09999999997672,
+                "p95": 174.59999999997672,
+                "p99": 199.70000000001164,
+                "samples": 82,
+                "outliers": 8,
+                "dataQuality": "poor"
+              },
+              "cls": {
+                "id": "cls",
+                "mean": 0.0360095912132112,
+                "min": 0.03600959121321112,
+                "max": 0.03600959121321112,
+                "stdDev": 7.632783294297951E-17,
+                "cv": 2.119652858346705E-13,
+                "p50": 0.03600959121321112,
+                "p75": 0.03600959121321112,
+                "p95": 0.03600959121321112,
+                "p99": 0.03600959121321112,
+                "samples": 86,
+                "outliers": 4,
+                "dataQuality": "good"
+              },
+              "ratings": {
+                "inp": {
+                  "good": 90,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "fcp": {
+                  "good": 90,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "lcp": {
+                  "good": 90,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                },
+                "cls": {
+                  "good": 90,
+                  "needs-improvement": 0,
+                  "poor": 0,
+                  "null": 0
+                }
+              }
+            }
+          }
+        },
+        "firefox-webpack-startupPowerUserHome": {
+          "error": "Error: This script should only be loaded in a browser extension."
+        },
+        "firefox-webpack-startupStandardHome": {
+          "error": "Error: Retry limit reached"
+        }
+      }
+    }
   }
 }
